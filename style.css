@@ -1,0 +1,23 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#172018;background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.navbar{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:10}
+.logo{font-size:21px;font-weight:800}.logo span{font-weight:400}
+nav{display:flex;gap:26px;font-size:14px}nav a:hover{opacity:.6}
+.nav-btn,.btn{display:inline-block;padding:11px 19px;border-radius:9px;font-weight:700}
+.nav-btn{background:#172018;color:#fff;font-size:14px}
+.hero{min-height:650px;padding:90px 8%;display:flex;align-items:center;justify-content:space-between;gap:50px;background:linear-gradient(135deg,#f3f8ef,#fff)}
+.hero-text{max-width:650px}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:800;margin-bottom:14px}
+h1{font-size:clamp(44px,6vw,76px);line-height:1.02;margin-bottom:24px}h1 span{opacity:.55}
+.hero-copy{font-size:18px;max-width:600px;color:#5d665f}.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn.primary{background:#172018;color:#fff}.btn.secondary{border:1px solid #172018}
+.hero-card{width:360px;min-height:330px;border-radius:28px;background:#172018;color:#fff;padding:45px;display:flex;flex-direction:column;justify-content:center;text-align:center;box-shadow:0 20px 50px #0002}
+.bike-emoji{font-size:110px;margin-bottom:15px}.hero-card h3{font-size:14px;letter-spacing:2px}.hero-card p{color:#d6ddd6;margin-top:8px}
+.section{padding:90px 8%}.section-heading{text-align:center;max-width:650px;margin:0 auto 45px}.section-heading h2,.about h2,.contact h2{font-size:42px;line-height:1.1;margin-bottom:12px}.section-heading>p:last-child{color:#68716a}
+.bike-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.bike-card{border:1px solid #e5e8e5;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 8px 25px #0000000b}.bike-photo{height:210px;background:#f1f4ef;display:flex;align-items:center;justify-content:center;font-size:100px}.bike-info{padding:24px}.tag{font-size:11px;font-weight:800;letter-spacing:1px}.bike-info h3{font-size:24px;margin:8px 0}.bike-info p{color:#68716a;margin-bottom:15px}.bike-info strong{display:block;margin-bottom:14px}.card-link{font-weight:800;font-size:14px}
+.light{background:#f5f7f3}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;max-width:1000px;margin:auto}.step{padding:30px;background:#fff;border-radius:16px}.step b{display:flex;width:42px;height:42px;border-radius:50%;align-items:center;justify-content:center;background:#172018;color:#fff;margin-bottom:18px}.step h3{margin-bottom:8px}.step p{color:#68716a}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about>p{font-size:18px;color:#5d665f}
+.contact{padding:80px 8%;display:grid;grid-template-columns:1fr 1fr;gap:40px;background:#172018;color:#fff}.contact p{color:#d6ddd6}.contact h2{margin-bottom:15px}.contact-box{background:#fff;color:#172018;padding:30px;border-radius:18px}.contact-box p{color:#172018;margin-bottom:8px}.contact-box .btn{margin-top:15px}.contact-box small{display:block;color:#68716a;margin-top:15px}
+footer{text-align:center;padding:25px;background:#101510;color:#cfd5cf;font-size:13px}
+@media(max-width:800px){nav{display:none}.hero{padding-top:55px;flex-direction:column;text-align:center}.hero-copy{margin:auto}.hero-card{width:100%;max-width:420px}.bike-grid,.steps,.about,.contact{grid-template-columns:1fr}.section-heading h2,.about h2,.contact h2{font-size:34px}.navbar{padding:0 5%}}
